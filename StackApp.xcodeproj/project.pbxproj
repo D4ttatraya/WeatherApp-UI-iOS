@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C61DB05B1D38D9FD00913E9B /* TimeDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB0591D38D9FD00913E9B /* TimeDetailCollectionViewCell.swift */; };
-		C61DB05C1D38D9FD00913E9B /* TimeDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB05A1D38D9FD00913E9B /* TimeDetailCollectionViewCell.xib */; };
+		C61DB0701D38DEAD00913E9B /* CityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB05F1D38DEAD00913E9B /* CityCollectionViewCell.swift */; };
+		C61DB0711D38DEAD00913E9B /* CityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB0601D38DEAD00913E9B /* CityCollectionViewCell.xib */; };
+		C61DB0721D38DEAD00913E9B /* SummaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB0611D38DEAD00913E9B /* SummaryCollectionViewCell.swift */; };
+		C61DB0731D38DEAD00913E9B /* SummaryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB0621D38DEAD00913E9B /* SummaryCollectionViewCell.xib */; };
+		C61DB0741D38DEAD00913E9B /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB0641D38DEAD00913E9B /* TimeCollectionViewCell.swift */; };
+		C61DB0751D38DEAD00913E9B /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB0651D38DEAD00913E9B /* TimeCollectionViewCell.xib */; };
+		C61DB0761D38DEAD00913E9B /* TimeDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB0661D38DEAD00913E9B /* TimeDetailCollectionViewCell.swift */; };
+		C61DB0771D38DEAD00913E9B /* TimeDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB0671D38DEAD00913E9B /* TimeDetailCollectionViewCell.xib */; };
+		C61DB0781D38DEAD00913E9B /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB0681D38DEAD00913E9B /* TodayCollectionViewCell.swift */; };
+		C61DB0791D38DEAD00913E9B /* TodayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB0691D38DEAD00913E9B /* TodayCollectionViewCell.xib */; };
+		C61DB07A1D38DEAD00913E9B /* WeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB06A1D38DEAD00913E9B /* WeekCollectionViewCell.swift */; };
+		C61DB07B1D38DEAD00913E9B /* WeekCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB06B1D38DEAD00913E9B /* WeekCollectionViewCell.xib */; };
+		C61DB07C1D38DEAD00913E9B /* CustomCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C61DB06D1D38DEAD00913E9B /* CustomCollectionLayout.m */; };
+		C61DB07D1D38DEAD00913E9B /* WeatherCollectionViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61DB06E1D38DEAD00913E9B /* WeatherCollectionViewContainer.swift */; };
+		C61DB07E1D38DEAD00913E9B /* WeatherCollectionViewContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61DB06F1D38DEAD00913E9B /* WeatherCollectionViewContainer.xib */; };
 		C620C9D71D37E35300D41673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620C9D61D37E35300D41673 /* AppDelegate.swift */; };
 		C620C9DC1D37E35300D41673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C620C9DA1D37E35300D41673 /* Main.storyboard */; };
 		C620C9DF1D37E35300D41673 /* StackApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C620C9DD1D37E35300D41673 /* StackApp.xcdatamodeld */; };
@@ -17,19 +30,6 @@
 		C620C9EF1D37E35300D41673 /* StackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620C9EE1D37E35300D41673 /* StackAppTests.swift */; };
 		C620C9FA1D37E35300D41673 /* StackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620C9F91D37E35300D41673 /* StackAppUITests.swift */; };
 		C620CA0A1D37E40000D41673 /* WeatherScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA091D37E40000D41673 /* WeatherScreenViewController.swift */; };
-		C620CA241D37F19900D41673 /* WeatherCollectionViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA231D37F19900D41673 /* WeatherCollectionViewContainer.swift */; };
-		C620CA261D37F1B800D41673 /* WeatherCollectionViewContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = C620CA251D37F1B800D41673 /* WeatherCollectionViewContainer.xib */; };
-		C620CA291D37F37800D41673 /* WeekCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA271D37F37800D41673 /* WeekCollectionViewCell.swift */; };
-		C620CA2A1D37F37800D41673 /* WeekCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C620CA281D37F37800D41673 /* WeekCollectionViewCell.xib */; };
-		C620CA2D1D37F38900D41673 /* TodayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA2B1D37F38900D41673 /* TodayCollectionViewCell.swift */; };
-		C620CA2E1D37F38900D41673 /* TodayCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C620CA2C1D37F38900D41673 /* TodayCollectionViewCell.xib */; };
-		C620CA321D37FD5600D41673 /* CustomCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C620CA311D37FD5600D41673 /* CustomCollectionLayout.m */; };
-		C620CA3C1D3806E600D41673 /* CityCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA3A1D3806E600D41673 /* CityCollectionViewCell.swift */; };
-		C620CA3D1D3806E600D41673 /* CityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C620CA3B1D3806E600D41673 /* CityCollectionViewCell.xib */; };
-		C620CA401D3818E500D41673 /* TimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA3E1D3818E500D41673 /* TimeCollectionViewCell.swift */; };
-		C620CA411D3818E500D41673 /* TimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C620CA3F1D3818E500D41673 /* TimeCollectionViewCell.xib */; };
-		C620CA441D3818F400D41673 /* SummaryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA421D3818F400D41673 /* SummaryCollectionViewCell.swift */; };
-		C620CA451D3818F400D41673 /* SummaryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C620CA431D3818F400D41673 /* SummaryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C61DB0591D38D9FD00913E9B /* TimeDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDetailCollectionViewCell.swift; sourceTree = "<group>"; };
-		C61DB05A1D38D9FD00913E9B /* TimeDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB05F1D38DEAD00913E9B /* CityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCollectionViewCell.swift; sourceTree = "<group>"; };
+		C61DB0601D38DEAD00913E9B /* CityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB0611D38DEAD00913E9B /* SummaryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C61DB0621D38DEAD00913E9B /* SummaryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB0641D38DEAD00913E9B /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		C61DB0651D38DEAD00913E9B /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB0661D38DEAD00913E9B /* TimeDetailCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		C61DB0671D38DEAD00913E9B /* TimeDetailCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB0681D38DEAD00913E9B /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
+		C61DB0691D38DEAD00913E9B /* TodayCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB06A1D38DEAD00913E9B /* WeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCollectionViewCell.swift; sourceTree = "<group>"; };
+		C61DB06B1D38DEAD00913E9B /* WeekCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekCollectionViewCell.xib; sourceTree = "<group>"; };
+		C61DB06C1D38DEAD00913E9B /* CustomCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionLayout.h; sourceTree = "<group>"; };
+		C61DB06D1D38DEAD00913E9B /* CustomCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionLayout.m; sourceTree = "<group>"; };
+		C61DB06E1D38DEAD00913E9B /* WeatherCollectionViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewContainer.swift; sourceTree = "<group>"; };
+		C61DB06F1D38DEAD00913E9B /* WeatherCollectionViewContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCollectionViewContainer.xib; sourceTree = "<group>"; };
 		C620C9D31D37E35300D41673 /* StackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C620C9D61D37E35300D41673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C620C9DB1D37E35300D41673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,21 +80,7 @@
 		C620C9F91D37E35300D41673 /* StackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackAppUITests.swift; sourceTree = "<group>"; };
 		C620C9FB1D37E35300D41673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C620CA091D37E40000D41673 /* WeatherScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherScreenViewController.swift; sourceTree = "<group>"; };
-		C620CA231D37F19900D41673 /* WeatherCollectionViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewContainer.swift; sourceTree = "<group>"; };
-		C620CA251D37F1B800D41673 /* WeatherCollectionViewContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherCollectionViewContainer.xib; sourceTree = "<group>"; };
-		C620CA271D37F37800D41673 /* WeekCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekCollectionViewCell.swift; sourceTree = "<group>"; };
-		C620CA281D37F37800D41673 /* WeekCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekCollectionViewCell.xib; sourceTree = "<group>"; };
-		C620CA2B1D37F38900D41673 /* TodayCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayCollectionViewCell.swift; sourceTree = "<group>"; };
-		C620CA2C1D37F38900D41673 /* TodayCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayCollectionViewCell.xib; sourceTree = "<group>"; };
 		C620CA2F1D37FD5600D41673 /* StackApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		C620CA301D37FD5600D41673 /* CustomCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionLayout.h; sourceTree = "<group>"; };
-		C620CA311D37FD5600D41673 /* CustomCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionLayout.m; sourceTree = "<group>"; };
-		C620CA3A1D3806E600D41673 /* CityCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityCollectionViewCell.swift; sourceTree = "<group>"; };
-		C620CA3B1D3806E600D41673 /* CityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityCollectionViewCell.xib; sourceTree = "<group>"; };
-		C620CA3E1D3818E500D41673 /* TimeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCollectionViewCell.swift; sourceTree = "<group>"; };
-		C620CA3F1D3818E500D41673 /* TimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeCollectionViewCell.xib; sourceTree = "<group>"; };
-		C620CA421D3818F400D41673 /* SummaryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryCollectionViewCell.swift; sourceTree = "<group>"; };
-		C620CA431D3818F400D41673 /* SummaryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +108,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C61DB05D1D38DEAD00913E9B /* Collection VIew */ = {
+			isa = PBXGroup;
+			children = (
+				C61DB05E1D38DEAD00913E9B /* Collection View Cells */,
+				C61DB06C1D38DEAD00913E9B /* CustomCollectionLayout.h */,
+				C61DB06D1D38DEAD00913E9B /* CustomCollectionLayout.m */,
+				C61DB06E1D38DEAD00913E9B /* WeatherCollectionViewContainer.swift */,
+				C61DB06F1D38DEAD00913E9B /* WeatherCollectionViewContainer.xib */,
+			);
+			path = "Collection VIew";
+			sourceTree = "<group>";
+		};
+		C61DB05E1D38DEAD00913E9B /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C61DB05F1D38DEAD00913E9B /* CityCollectionViewCell.swift */,
+				C61DB0601D38DEAD00913E9B /* CityCollectionViewCell.xib */,
+				C61DB0611D38DEAD00913E9B /* SummaryCollectionViewCell.swift */,
+				C61DB0621D38DEAD00913E9B /* SummaryCollectionViewCell.xib */,
+				C61DB0631D38DEAD00913E9B /* Time Cell */,
+				C61DB0681D38DEAD00913E9B /* TodayCollectionViewCell.swift */,
+				C61DB0691D38DEAD00913E9B /* TodayCollectionViewCell.xib */,
+				C61DB06A1D38DEAD00913E9B /* WeekCollectionViewCell.swift */,
+				C61DB06B1D38DEAD00913E9B /* WeekCollectionViewCell.xib */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		C61DB0631D38DEAD00913E9B /* Time Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C61DB0641D38DEAD00913E9B /* TimeCollectionViewCell.swift */,
+				C61DB0651D38DEAD00913E9B /* TimeCollectionViewCell.xib */,
+				C61DB0661D38DEAD00913E9B /* TimeDetailCollectionViewCell.swift */,
+				C61DB0671D38DEAD00913E9B /* TimeDetailCollectionViewCell.xib */,
+			);
+			path = "Time Cell";
+			sourceTree = "<group>";
+		};
 		C620C9CA1D37E35300D41673 = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +170,7 @@
 		C620C9D51D37E35300D41673 /* StackApp */ = {
 			isa = PBXGroup;
 			children = (
-				C620CA221D37F12400D41673 /* CollectionView */,
+				C61DB05D1D38DEAD00913E9B /* Collection VIew */,
 				C620C9D61D37E35300D41673 /* AppDelegate.swift */,
 				C620CA091D37E40000D41673 /* WeatherScreenViewController.swift */,
 				C620C9DA1D37E35300D41673 /* Main.storyboard */,
@@ -160,29 +199,6 @@
 				C620C9FB1D37E35300D41673 /* Info.plist */,
 			);
 			path = StackAppUITests;
-			sourceTree = "<group>";
-		};
-		C620CA221D37F12400D41673 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				C620CA301D37FD5600D41673 /* CustomCollectionLayout.h */,
-				C620CA311D37FD5600D41673 /* CustomCollectionLayout.m */,
-				C620CA231D37F19900D41673 /* WeatherCollectionViewContainer.swift */,
-				C620CA251D37F1B800D41673 /* WeatherCollectionViewContainer.xib */,
-				C620CA3A1D3806E600D41673 /* CityCollectionViewCell.swift */,
-				C620CA3B1D3806E600D41673 /* CityCollectionViewCell.xib */,
-				C620CA3E1D3818E500D41673 /* TimeCollectionViewCell.swift */,
-				C620CA3F1D3818E500D41673 /* TimeCollectionViewCell.xib */,
-				C61DB0591D38D9FD00913E9B /* TimeDetailCollectionViewCell.swift */,
-				C61DB05A1D38D9FD00913E9B /* TimeDetailCollectionViewCell.xib */,
-				C620CA271D37F37800D41673 /* WeekCollectionViewCell.swift */,
-				C620CA281D37F37800D41673 /* WeekCollectionViewCell.xib */,
-				C620CA2B1D37F38900D41673 /* TodayCollectionViewCell.swift */,
-				C620CA2C1D37F38900D41673 /* TodayCollectionViewCell.xib */,
-				C620CA421D3818F400D41673 /* SummaryCollectionViewCell.swift */,
-				C620CA431D3818F400D41673 /* SummaryCollectionViewCell.xib */,
-			);
-			name = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,15 +309,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C620C9E41D37E35300D41673 /* LaunchScreen.storyboard in Resources */,
+				C61DB07B1D38DEAD00913E9B /* WeekCollectionViewCell.xib in Resources */,
+				C61DB0771D38DEAD00913E9B /* TimeDetailCollectionViewCell.xib in Resources */,
+				C61DB0751D38DEAD00913E9B /* TimeCollectionViewCell.xib in Resources */,
 				C620C9E11D37E35300D41673 /* Assets.xcassets in Resources */,
-				C620CA451D3818F400D41673 /* SummaryCollectionViewCell.xib in Resources */,
-				C620CA2E1D37F38900D41673 /* TodayCollectionViewCell.xib in Resources */,
-				C620CA411D3818E500D41673 /* TimeCollectionViewCell.xib in Resources */,
-				C620CA3D1D3806E600D41673 /* CityCollectionViewCell.xib in Resources */,
-				C61DB05C1D38D9FD00913E9B /* TimeDetailCollectionViewCell.xib in Resources */,
-				C620CA261D37F1B800D41673 /* WeatherCollectionViewContainer.xib in Resources */,
+				C61DB0791D38DEAD00913E9B /* TodayCollectionViewCell.xib in Resources */,
+				C61DB0731D38DEAD00913E9B /* SummaryCollectionViewCell.xib in Resources */,
 				C620C9DC1D37E35300D41673 /* Main.storyboard in Resources */,
-				C620CA2A1D37F37800D41673 /* WeekCollectionViewCell.xib in Resources */,
+				C61DB0711D38DEAD00913E9B /* CityCollectionViewCell.xib in Resources */,
+				C61DB07E1D38DEAD00913E9B /* WeatherCollectionViewContainer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,17 +342,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61DB0781D38DEAD00913E9B /* TodayCollectionViewCell.swift in Sources */,
 				C620C9D71D37E35300D41673 /* AppDelegate.swift in Sources */,
-				C61DB05B1D38D9FD00913E9B /* TimeDetailCollectionViewCell.swift in Sources */,
+				C61DB07D1D38DEAD00913E9B /* WeatherCollectionViewContainer.swift in Sources */,
+				C61DB0741D38DEAD00913E9B /* TimeCollectionViewCell.swift in Sources */,
+				C61DB0721D38DEAD00913E9B /* SummaryCollectionViewCell.swift in Sources */,
+				C61DB07C1D38DEAD00913E9B /* CustomCollectionLayout.m in Sources */,
 				C620C9DF1D37E35300D41673 /* StackApp.xcdatamodeld in Sources */,
-				C620CA3C1D3806E600D41673 /* CityCollectionViewCell.swift in Sources */,
-				C620CA441D3818F400D41673 /* SummaryCollectionViewCell.swift in Sources */,
-				C620CA241D37F19900D41673 /* WeatherCollectionViewContainer.swift in Sources */,
+				C61DB07A1D38DEAD00913E9B /* WeekCollectionViewCell.swift in Sources */,
 				C620CA0A1D37E40000D41673 /* WeatherScreenViewController.swift in Sources */,
-				C620CA2D1D37F38900D41673 /* TodayCollectionViewCell.swift in Sources */,
-				C620CA321D37FD5600D41673 /* CustomCollectionLayout.m in Sources */,
-				C620CA401D3818E500D41673 /* TimeCollectionViewCell.swift in Sources */,
-				C620CA291D37F37800D41673 /* WeekCollectionViewCell.swift in Sources */,
+				C61DB0701D38DEAD00913E9B /* CityCollectionViewCell.swift in Sources */,
+				C61DB0761D38DEAD00913E9B /* TimeDetailCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
